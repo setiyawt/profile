@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500&family=Klee+One&family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@100;400&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200&family=Poppins:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header nav {
+    display: flex;
+    padding: 25px;
+    background-color: rgb(255, 204, 204);
+    margin-bottom: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto; 
+    margin-left: 20px;
+}
+
+.contact-me {
+    margin-left: auto; 
+    margin-right: 50px;
+}
+
+
+li img {
+    width: 100px;
+}
+
+.content {
+    padding-top: 80px;
+    background-color: rgb(252, 221, 221);
+    display: flex;
+}
+
+.hero {
+    width: 600px;
+    margin-right: auto; 
+    margin-left: 100px;
+}
+
+.intro {
+    display: inline;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 160px;
+    margin-top: 120px;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(223, 95, 95);
+    margin-bottom: 20px;
+    
+}
+
+.intro p {
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.discover-more {
+    padding: 20px 30px 20px 30px;
+    margin-top: 20px;
+    background-color: rgb(223, 95, 95);
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.discover-more:hover {
+    background-color: rgb(247, 126, 126);
+}
+
+@keyframes hero {
+    0% {
+        
+    }
+}
