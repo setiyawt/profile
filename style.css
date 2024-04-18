@@ -3,72 +3,93 @@
 * {
     padding: 0;
     margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 body {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    justify-content: space-between;
+    width: 100%;
 }
 
-header nav {
+header {
+    padding: 20px;
+    margin: auto;
+    
+
+}
+
+nav {
     display: flex;
-    padding: 25px;
-    background-color: rgb(255, 204, 204);
-    margin-bottom: 20px;
+    padding: 20px 50px; 
+    background: linear-gradient(60deg, #65c8a0, rgb(255, 172, 172));
     position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+    align-content: center;
+    justify-content: space-between;
     z-index: 2;
+}
+
+.menu {
+    padding-left: 40px;
+    justify-content: space-between;
+    align-content: center;
 }
 
 li {
     list-style: none;
     display: inline;
-    margin: 20px;
+    margin: 25px;
     justify-content: center;
     
 }
 
+.logo {
+    width: 120px;
+}
+
 li a {
     text-decoration: none;
+    color: rgb(223, 95, 95);
+    font-weight: 400;
 }
 
-.logo {
-    margin-right: auto; 
-    margin-left: 20px;
+.btn-contact-me {
+    padding: 12px 25px 12px 25px;
+    background-color: rgb(223, 95, 95);
+    cursor: pointer;
+    border: 1px solid rgb(247, 126, 126);
+    color: #fff;
 }
 
-.contact-me {
-    margin-left: auto; 
-    margin-right: 50px;
+.btn-contact-me:hover {
+    background-color: rgb(247, 126, 126);
 }
 
 
-li img {
-    width: 100px;
-}
 
-#content {
+.content-home {
     padding-top: 80px;
-    background-color: rgb(252, 221, 221);
+    background: linear-gradient(45deg, #65c8a0, rgb(255, 172, 172));
     display: flex;
 }
 
 .hero {
-    width: 600px;
-    margin-right: auto; 
-    margin-left: 100px;
+    width: 480px;
     transform: scaleX(-1);
     z-index: 1;
+    padding: 20px 20px;
 }
 
 .intro {
     display: inline;
     text-align: right;
-    margin-left: auto;
-    margin-right: 160px;
-    margin-top: 120px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 .title {
@@ -100,35 +121,41 @@ li img {
     background-color: rgb(247, 126, 126);
 }
 
-#about-me {
-    margin: 20px;
+.about {
     display: flex;
+    
 }
 
-.about {
+.about-me {
     display: inline;
     text-align: left;
-    margin-right: auto;
-    margin-left: 160px;
-    margin-top: 120px;
-    
+    justify-content: center;
+    align-content: center;
+    padding: 20px 50px;
 }
 
-.title-about {
-    font-size: 50px;
-    color: rgb(223, 95, 95);
-    margin-bottom: 20px;
-    
-}
 
 .about-hero {
     width: 350px;
-    margin-left: auto; 
-    margin-right: 100px;
+    padding: 20px 20px;
 }
 
-@keyframes hero {
-    0% {
-        
-    }
+.projects {
+    background: linear-gradient(45deg, #65c8a0, rgb(255, 172, 172));
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.list-project {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 50px;
+}
+
+.image-projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
 }
