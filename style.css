@@ -25,7 +25,7 @@ header {
 
 nav {
     display: flex;
-    padding: 20px 50px; 
+    padding: 20px 80px; 
     background: linear-gradient(60deg, #65c8a0, rgb(255, 172, 172));
     position: fixed;
     align-content: center;
@@ -57,6 +57,14 @@ li a {
     font-weight: 400;
 }
 
+li a:hover {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+
 .btn-contact-me {
     padding: 12px 25px 12px 25px;
     background-color: rgb(223, 95, 95);
@@ -81,13 +89,13 @@ li a {
     width: 480px;
     transform: scaleX(-1);
     z-index: 1;
-    padding: 20px 20px;
+    padding: 20px 50px;
 }
 
 .intro {
     display: inline;
     text-align: right;
-    padding: 20px 50px;
+    padding: 20px 80px;
     justify-content: center;
     align-content: center;
 }
@@ -131,13 +139,13 @@ li a {
     text-align: left;
     justify-content: center;
     align-content: center;
-    padding: 20px 50px;
+    padding: 20px 80px;
 }
 
 
 .about-hero {
     width: 350px;
-    padding: 20px 20px;
+    padding: 20px 50px auto;
 }
 
 .projects {
@@ -147,11 +155,18 @@ li a {
     padding-top: 20px;
 }
 
+
 .list-project {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 20px 50px;
+    padding: 20px 80px;
+    
+    
+}
+
+.project1 {
+    padding: 20px;
 }
 
 .image-projects {
@@ -159,3 +174,18 @@ li a {
     padding-bottom: 20px;
     width: 300px;
 }
+
+.my-experiences  {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container-experiences {
+    
+    margin: 30px 200px;
+    background-color: #65c8a0;
+    padding: 50px auto;
+    border-left: 2px solid #333;
+}
+
