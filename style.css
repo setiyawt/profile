@@ -26,7 +26,7 @@ header {
 nav {
     display: flex;
     padding: 20px 80px; 
-    background: linear-gradient(60deg, #65c8a0, rgb(255, 172, 172));
+    background: linear-gradient(60deg, #65acc8, #f476ff);
     position: fixed;
     align-content: center;
     justify-content: space-between;
@@ -37,14 +37,14 @@ nav {
     padding-left: 40px;
     justify-content: space-between;
     align-content: center;
+    list-style: none;
 }
 
-li {
-    list-style: none;
+.menu li {
     display: inline;
     margin: 25px;
     justify-content: center;
-    
+    list-style: none;
 }
 
 .logo {
@@ -81,7 +81,7 @@ li a:hover {
 
 .content-home {
     padding-top: 80px;
-    background: linear-gradient(45deg, #65c8a0, rgb(255, 172, 172));
+    background: linear-gradient(45deg, #65acc8, #f476ff);
     display: flex;
 }
 
@@ -129,7 +129,7 @@ li a:hover {
     background-color: rgb(247, 126, 126);
 }
 
-.about {
+#about {
     display: flex;
     
 }
@@ -144,12 +144,12 @@ li a:hover {
 
 
 .about-hero {
-    width: 350px;
+    width: 500px;
     padding: 20px 50px auto;
 }
 
-.projects {
-    background: linear-gradient(45deg, #65c8a0, rgb(255, 172, 172));
+#projects {
+    background: linear-gradient(45deg, #65acc8, #f476ff);
     text-align: center;
     justify-content: center;
     padding-top: 20px;
@@ -181,11 +181,82 @@ li a:hover {
     padding-top: 20px;
 }
 
-.container-experiences {
-    
-    margin: 30px 200px;
-    background-color: #65c8a0;
-    padding: 50px auto;
-    border-left: 2px solid #333;
+
+.title-experiences {
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 24px;
 }
 
+.container-experiences {
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.experience-item {
+    position: relative; 
+    margin-left: 10px; 
+    margin-bottom: 20px; 
+    
+}
+
+.line {
+    width: 2px; 
+    height: 100%; 
+    background-color: #86b1ff;
+    position: absolute;
+    top: -10px; 
+    left: -20px;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background-color: #86b1ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px; 
+    left: -24px; 
+    
+    
+}
+
+.circle2 {
+    width: 12px;
+    height: 12px;
+    background-color: #86b1ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px; 
+    left: -35px;
+}
+
+.title-exp {
+    font-size: 20px;
+}
+
+.date {
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.content-experiences {
+    background-color: #86b1ff;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.desc-experiences {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
